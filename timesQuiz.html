@@ -1,0 +1,50 @@
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="quizstyle.css">
+        <script src="tablesscripts.js"></script>
+        <script src="quizscripts.js"></script>
+    </head>
+    <body>
+      
+
+<h1>  </h1>
+<h2>Times Tables Quiz with Built In Review  </h2>
+<p> 
+  
+   Click "new problem" to get started. 
+  You'll get asked your twos times tables, in order with occasional review. <br/>
+  If you miss one, you'll get extra practice on that one. 
+</p>
+
+
+
+<div class = "gridliness">
+ 
+ 
+<div id="frameFact" class="framedParts"> 
+</div>
+ 
+
+<div id="feedback"  >
+  <p id="answerFeedback" class="bigText"></p>
+  
+ </div>
+<div id="inputPlace" class="framedParts">
+  <input  type="text" id="number001" size="4" maxlength="4" />
+  </div>
+  <div>
+    <p id="p001"></p>
+    <p id="p002"></p>
+  </div>
+</div>
+<div id= "checkButton" class="framedParts"><button id="check" disabled=true class="button1" onclick="checkMe();">Check Me</button> 
+<div id="buttonSpot" class="framedParts"> <button id= "newProb" class="button1" onclick="newFact();">New Problem </button> </div>
+
+  
+  <p id="nextp">   </p>
+  
+  <p id="p2"></p>
+</div>   
+
+    </body>
+    </html>

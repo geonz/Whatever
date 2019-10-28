@@ -1,0 +1,76 @@
+
+div
+{
+  border-style: dashed;
+  background: pink;
+}
+
+.gridliness
+{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  background: yellow;
+}
+
+
+#number001
+{
+  text-align: right;
+  border-radius: 12px;
+}
+
+#answerFeedback
+{
+  color:blue;
+  font-size: 1.8em;
+ }
+.button1 
+{font-size: 20px;
+  border-radius: 12px;
+  background-color: #4CA450;   
+  display:block;
+  margin:auto;
+  padding: 10px;
+}
+ 
+ .bigtext
+ {
+     color: purple;
+ }
+.button1:disabled {opacity: .5}
+body {
+  margin:  auto;
+  color: #323232;
+  max-width: 100%;
+  line-height: 1.6;
+  padding: 1em 3em;
+  background-color: #fff;
+  font-family: 'Roboto', serif;
+}
+
+  #frameFact, #inputPlace {
+/*       padding: 25px; */
+      border-radius: 19px;
+      background-color: powderblue;
+      border: 4px solid black;
+    
+    font-size: 3em;
+    text-align: center;
+    
+    }
+
+    h1 {
+  line-height: 2;
+ /* font-size: 1em; */
+ 
+}
+p{ font-size: 1.8em;}
+
+  .framedParts
+{
+  padding: 30px;
+}
+
+ 
+
